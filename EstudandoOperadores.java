@@ -1,6 +1,16 @@
 public class EstudandoOperadores{
     
     public static void main(String[] args) {
+
+        int x = 25;
+        int y = 30;
+        int res = x+y;
+        System.out.println("x + y = "+res);
+
+        int x2 = 50;
+        int y2 = 30;
+        int res2 = x2-y2;
+        System.out.println("x2 - y2 = "+res2);
         
         System.out.println("Calculando a area de uma figura");
         int baseFigura = 10;
