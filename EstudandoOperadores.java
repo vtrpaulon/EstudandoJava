@@ -35,5 +35,16 @@ public class EstudandoOperadores{
         raio = 10;
         area = PI * raio * raio;
         System.out.println("Area = "+area);
+
+        int a = 6;
+        int b = 2;
+        int soma = a+b;
+        int sub = a-b;
+        int mult = a*b;
+        int div = a/b;
+        System.out.println("A soma de a e b é: "+soma);
+        System.out.println("A subtracao de a e b é: "+sub);
+        System.out.println("A multiplicacao de a e b é: "+mult);
+        System.out.println("A divisao de a e b é: "+div);
     }
 }
